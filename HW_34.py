@@ -23,7 +23,7 @@ def get_user_data(a):
 def count_slog(b):
     counter = 0
     for j in b:
-        if 'а' in j:
+        if 'а' or 'е' or 'ё' or 'и' or 'о' or 'у' or 'э' or 'ю' or 'я' in j:
             counter += 1
     return counter
 
